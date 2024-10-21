@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 22px;
+}
+
+body{
+  min-height: 100vh;
+  font-family: "Roboto",  sans-serif;
+}
+form{
+  width: 100%;
+  position: fixed;
+}
+button{
+  width: 33.33%;
+  padding: 0.5rem;
+  /* flex-shrink: calc(100% - 200px); */
+  font-size: 1rem;
+  
+}
+button.selected{
+  background-color: black;
+  color: #fff;
+}
+ul{
+  padding: 3rem 2rem 1rem;
+}
+li{
+  margin-bottom: 0.5rem;
+}
+.table-container{
+  width: 100%;
+  overflow-y: auto;
+  padding-top: 52px;
+
+}
+td{
+  border: 1px solid black;
+  padding: 0.5rem;
+}
